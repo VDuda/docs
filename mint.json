@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Nomad Docs",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/logo.png",
+    "light": "/logo/logo.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/logo.png",
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
@@ -17,15 +17,23 @@
   },
   "topbarLinks": [
     {
+      "name": "Home",
+      "url": "https://usenomad.ai"
+    },
+    {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@usenomad.ai"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Login",
+    "url": "https://app.usenomad.ai"
   },
   "tabs": [
+    {
+      "name": "Integrations",
+      "url": "integrations"
+    },
     {
       "name": "API Reference",
       "url": "api-reference"
@@ -33,39 +41,40 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Home",
+      "icon": "house",
+      "url": "https://usenomad.ai"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Documentation",
+      "icon": "book-open-cover",
+      "url": "https://usenomad.ai/docs"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://usenomad.ai" 
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "API Documentation",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "integrations/introduction"
+      ]
+    },
+    {
+      "group": "Endpoint Examples",
+      "pages": [
+        "integrations/endpoint/get",
+        "integrations/endpoint/create",
+        "integrations/endpoint/delete"
       ]
     },
     {
@@ -84,8 +93,8 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://x.com/usenomad_ai",
+    "github": "https://github.com/diginomads",
+    "linkedin": "https://www.linkedin.com/company/digitalnomads-ai/"
   }
 }
