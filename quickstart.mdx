@@ -1,86 +1,56 @@
 ---
-title: 'Quickstart'
-description: 'Start building awesome documentation in under 5 minutes'
+title: "Quickstart: Get Started with Nomad AI"
+description: "Begin your journey with Nomad AI. Learn how to set up your organization and connect your first integration to unlock financial insights."
 ---
 
-## Setup your development
+# Quickstart: Your First Steps with Nomad AI
 
-Learn how to update your docs locally and and deploy them to the public.
+Welcome to Nomad AI! This quickstart guide will walk you through the essential steps to get your business set up and begin leveraging the power of our Unified Economic Ecosystem.
 
-### Edit and preview
+<Info>
+  This guide focuses on connecting your first revenue source. For a detailed list of all integrations, please refer to our [Integrations section](/integrations/overview).
+</Info>
 
-<AccordionGroup>
-  <Accordion icon="github" title="Clone your docs locally">
-    During the onboarding process, we created a repository on your Github with
-    your docs content. You can find this repository on our
-    [dashboard](https://dashboard.mintlify.com). To clone the repository
-    locally, follow these
-    [instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-    in your terminal.
-  </Accordion>
-  <Accordion icon="rectangle-terminal" title="Preview changes">
-    Previewing helps you make sure your changes look as intended. We built a
-    command line interface to render these changes locally. 1. Install the
-    [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the
-    documentation changes locally with this command: ``` npm i -g mintlify ```
-    2. Run the following command at the root of your documentation (where
-    `mint.json` is): ``` mintlify dev ```
-  </Accordion>
-</AccordionGroup>
+## Step 1: Set Up Your Organization
 
-### Deploy your changes
+Before connecting any integrations, you'll need to create your organization within Nomad AI.
 
-<AccordionGroup>
+1.  **Log in to the Nomad AI App:** If you haven't already, visit [app.usenomad.ai](https://app.usenomad.ai) and sign in.
+2.  **Create Your Organization:** Follow the on-screen prompts to set up your business organization (e.g., "My Brand LLC"). This will be your central hub for all financial data.
 
-<Accordion icon="message-bot" title="Install our Github app">
-  Our Github app automatically deploys your changes to your docs site, so you
-  don't need to manage deployments yourself. You can find the link to install on
-  your [dashboard](https://dashboard.mintlify.com). Once the bot has been
-  successfully installed, there should be a check mark next to the commit hash
-  of the repo.
-</Accordion>
-<Accordion icon="rocket" title="Push your changes">
-  [Commit and push your changes to
-  Git](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository#about-git-push)
-  for your changes to update in your docs site. If you push and don't see that
-  the Github app successfully deployed your changes, you can also manually
-  update your docs through our [dashboard](https://dashboard.mintlify.com).
-</Accordion>
+<Tip>
+  Ensure your organization details are accurate, as these will be used for reporting and compliance.
+</Tip>
 
-</AccordionGroup>
+## Step 2: Connect Your First Revenue Integration (e.g., TikTok Shop)
 
-## Update your docs
+Connecting a commerce platform is the first step to feeding data into the Pilot engine.
 
-Add content directly in your files with MDX syntax and React components. You can use any of our components, or even build your own.
+1.  **Navigate to Integrations:** From your Nomad AI dashboard, go to **Settings > Integrations**.
+2.  **Locate TikTok Shop:** Find the "TikTok Shop Integration" card and click the "Connect" button.
+3.  **Authenticate:** A secure pop-up window will guide you through TikTok's official OAuth portal. Grant the necessary permissions for Nomad AI to access your sales data.
+4.  **Confirm Connection:** Once authenticated, the pop-up will close, and the TikTok Shop integration card in Nomad AI will update to show "Disconnect," indicating a successful connection.
+
+## Step 3: Initial Data Ingestion
+
+Upon successful connection, Nomad AI immediately begins its work:
+
+*   **Historical Data Backfill:** Our Pilot engine automatically starts fetching your historical sales data from TikTok Shop (typically the last 30-90 days), building an immediate financial baseline for your business.
+*   **Dashboard Population:** You'll soon see your dashboard populate with charts and data, providing initial insights into your revenue.
+
+## What's Next?
 
 <CardGroup>
-
-<Card title="Style Your Docs" icon="paintbrush" href="/settings/global">
-  Add flair to your docs with personalized branding.
-</Card>
-
-<Card
-  title="Add API Endpoints"
-  icon="square-code"
-  href="/api-playground/configuration"
->
-  Implement your OpenAPI spec and enable API user interaction.
-</Card>
-
-<Card
-  title="Integrate Analytics"
-  icon="chart-mixed"
-  href="/analytics/supported-integrations"
->
-  Draw insights from user interactions with your documentation.
-</Card>
-
-<Card
-  title="Host on a Custom Domain"
-  icon="browser"
-  href="/settings/custom-domain/subdomain"
->
-  Keep your docs on your own website's subdomain.
-</Card>
-
+  <Card title="Explore Your Dashboard" icon="chart-simple">
+    See your sales trends, unified ledger, and early valuation insights.
+  </Card>
+  <Card title="Connect More Integrations" icon="plug-connection" href="/integrations/overview">
+    Add other commerce platforms or connect **QuickBooks Online** to enable comprehensive accounting features.
+  </Card>
+  <Card title="TikTok Shop Integration" icon="store" href="/integrations/tiktok-shop">
+    Learn more about the TikTok Shop integration details.
+  </Card>
+  <Card title="Dive Deeper into Core Engines" icon="solar-panel" href="/core-engines/overview">
+    Understand how Nomad AI refines your data.
+  </Card>
 </CardGroup>

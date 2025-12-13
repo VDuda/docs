@@ -1,0 +1,23 @@
+---
+title: "QuickBooks Online Integration"
+description: "Integrate QuickBooks Online with Nomad AI for streamlined accounting, financial data sync, and expense tracking."
+---
+
+# QuickBooks Online Integration
+
+<Info>
+  **Status:** 🟡 OAuth Only
+</Info>
+
+The QuickBooks Online integration provides a foundation for comprehensive financial data management. While the initial connection is fully functional, advanced data synchronization features are currently in development.
+
+## Features & Implementation
+
+*   **OAuth Connection:** A secure OAuth 2.0 flow enables you to connect your QuickBooks Online account. This process establishes the necessary authorization and tracks your QuickBooks `realmId` within Nomad AI.
+*   **Planned Features (Roadmap):**
+    *   **Two-Way Ledger Sync:** Future enhancements will enable seamless two-way synchronization of your general ledger data between QuickBooks and Nomad AI's unified ledger.
+    *   **Automated Invoice Generation:** Automate the creation and reconciliation of invoices directly from Nomad AI's transaction data.
+
+## Technical Details
+
+*   Our [Integrations Service (Backend)](/technical-architecture/integrations-service-backend) manages the OAuth flow and token handling for QuickBooks Online.

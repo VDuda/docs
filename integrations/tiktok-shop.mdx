@@ -1,0 +1,27 @@
+---
+title: "TikTok Shop Integration"
+description: "Connect your TikTok Shop to Nomad AI for real-time order sync, settlement reports, and comprehensive revenue tracking."
+---
+
+# TikTok Shop Integration
+
+<Info>
+  **Status:** ✅ Live
+</Info>
+
+The TikTok Shop integration is a cornerstone of our Commerce Engines, providing robust capabilities to connect and manage your TikTok sales data within Nomad AI.
+
+## Features & Implementation
+
+*   **OAuth Connection & Token Management:** A secure OAuth 2.0 flow allows you to easily connect your TikTok Shop account. The system handles the exchange of authorization codes for access and refresh tokens, ensuring continuous, secure access to your shop data.
+*   **Order Synchronization (Historical & Real-time):**
+    *   **Historical Backfill:** Upon initial connection, Nomad AI automatically fetches your past order data from TikTok Shop, providing an immediate historical context for your analytics.
+    *   **Real-time Updates:** Incoming orders and updates are captured in near real-time, ensuring your Nomad AI dashboard always reflects your latest sales performance.
+*   **Settlement Reports:** Reconcile your payouts with detailed settlement reports fetched directly from TikTok Shop, giving you clear visibility into your earned revenue.
+*   **Webhooks:** We leverage TikTok's webhook system to receive immediate notifications for key events like new orders or order status changes, powering instant updates in your Nomad AI dashboard.
+
+## Technical Details
+
+*   **API Integration:** Utilizes the TikTok Open API.
+*   **Security:** All API communications are secured with industry-standard signature verification.
+*   **Token Management:** Our integrations backend handles automatic token refresh to ensure uninterrupted data flow, addressing the typical expiry of access tokens.
