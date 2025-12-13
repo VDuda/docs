@@ -29,61 +29,62 @@
     "name": "Login",
     "url": "https://app.usenomad.ai"
   },
-  "tabs": [
-    {
-      "name": "Integrations",
-      "url": "integrations"
-    },
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Home",
-      "icon": "house",
-      "url": "https://usenomad.ai"
-    },
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://usenomad.ai/docs"
-    }
-  ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction"
+        "introduction",
+        "quickstart"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Core Engines",
       "pages": [
-        "integrations/introduction"
+        "core-engines/overview",
+        "core-engines/ai-refinery-pilot",
+        "core-engines/wealth-os-treasury",
+        "core-engines/exit-strategy-engine"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Integrations",
       "pages": [
-        "integrations/endpoint/get",
-        "integrations/endpoint/create",
-        "integrations/endpoint/delete"
+        "integrations/overview",
+        {
+          "group": "Commerce & Marketplaces",
+          "pages": [
+            "integrations/tiktok-shop",
+            "integrations/shopify",
+            "integrations/amazon-seller",
+            "integrations/ebay",
+            "integrations/etsy"
+          ]
+        },
+        {
+          "group": "Accounting & Finance",
+          "pages": [
+            "integrations/quickbooks-online"
+          ]
+        },
+        {
+          "group": "VDR & Storage",
+          "pages": [
+            "integrations/google-drive",
+            "integrations/dropbox",
+            "integrations/papermark",
+            "integrations/notion",
+            "integrations/datasite",
+            "integrations/ssc-intralinks"
+          ]
+        }
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Technical Architecture",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "technical-architecture/overview",
+        "technical-architecture/frontend-stack",
+        "technical-architecture/integrations-service-backend"
       ]
     }
   ],
