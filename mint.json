@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Nomad Docs",
   "logo": {
-    "dark": "/logo/logo.png",
-    "light": "/logo/logo.png"
+    "dark": "/logo/favicon.png",
+    "light": "/logo/favicon.png"
   },
-  "favicon": "/logo/logo.png",
+  "favicon": "/logo/favicon.png",
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
